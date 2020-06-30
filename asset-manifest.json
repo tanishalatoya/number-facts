@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/number-facts/static/css/main.5f361e03.chunk.css",
+    "main.js": "/number-facts/static/js/main.2f0560fe.chunk.js",
+    "main.js.map": "/number-facts/static/js/main.2f0560fe.chunk.js.map",
+    "runtime-main.js": "/number-facts/static/js/runtime-main.6b28ea03.js",
+    "runtime-main.js.map": "/number-facts/static/js/runtime-main.6b28ea03.js.map",
+    "static/js/2.5dc6fb33.chunk.js": "/number-facts/static/js/2.5dc6fb33.chunk.js",
+    "static/js/2.5dc6fb33.chunk.js.map": "/number-facts/static/js/2.5dc6fb33.chunk.js.map",
+    "index.html": "/number-facts/index.html",
+    "precache-manifest.820aaf42d32589480333b5d7c4dcfc3a.js": "/number-facts/precache-manifest.820aaf42d32589480333b5d7c4dcfc3a.js",
+    "service-worker.js": "/number-facts/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/number-facts/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.5dc6fb33.chunk.js.LICENSE.txt": "/number-facts/static/js/2.5dc6fb33.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/number-facts/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b28ea03.js",
+    "static/js/2.5dc6fb33.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.2f0560fe.chunk.js"
+  ]
+}
