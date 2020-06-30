@@ -9,6 +9,7 @@ const SearchForm = () => {
                 type='number'
                 name='queryValue'
                 placeholder='Enter a number'
+                onChange={e => updatequeryValue(e.target.value)}
                 />
         </form>
     )
