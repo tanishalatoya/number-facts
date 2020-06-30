@@ -11,6 +11,10 @@ const SearchForm = () => {
                 placeholder='Enter a number'
                 onChange={e => updatequeryValue(e.target.value)}
                 />
+            <button
+                onClick={displayNumberFact}>
+                Submit
+            </button>
         </form>
     )
 }
