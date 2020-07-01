@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
+import { getNumberFact } from '../../apiCalls';
 
 const SearchForm = () => {
     const [queryValue, updatequeryValue] = useState('')
+
+    const displayNumberFact = e => {
+        e.preventDefault()
+        getNumberFact(queryValue)
+            .then(fact => console.log(fact))
+           
+    }
 
     return(
         <form>
