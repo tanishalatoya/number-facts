@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { getNumberFact } from '../../apiCalls';
 
-const SearchForm = () => {
+const SearchForm = props => {
+    console.log(props)
     const [queryValue, updatequeryValue] = useState('')
 
     const displayNumberFact = e => {
         e.preventDefault()
         getNumberFact(queryValue)
-            .then(fact => console.log(fact))
+            .then(fact => props.udpateNumberFact(fact))
             .then(() => updatequeryValue(''))
+            .catch(error => console.log(error))
            
     }
 
