@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { getNumberFact } from '../../apiCalls';
 
 const SearchForm = props => {
-    console.log(props)
     const [queryValue, updatequeryValue] = useState('')
 
     const displayNumberFact = e => {
