@@ -1,9 +1,9 @@
 import React from 'react';
 
-const FactContainer = () => {
+const FactContainer = props => {
     return (
         <section>
-            
+            <p>{props.numberFact}</p>
         </section>
     )
 }
