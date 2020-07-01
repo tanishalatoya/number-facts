@@ -8,6 +8,7 @@ const SearchForm = () => {
         e.preventDefault()
         getNumberFact(queryValue)
             .then(fact => console.log(fact))
+            .then(() => updatequeryValue(''))
            
     }
 
@@ -17,6 +18,7 @@ const SearchForm = () => {
                 type='number'
                 name='queryValue'
                 placeholder='Enter a number'
+                value={queryValue}
                 onChange={e => updatequeryValue(e.target.value)}
                 />
             <button
